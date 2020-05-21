@@ -1,0 +1,3 @@
+[[plugins]]
+package = "./plugins/netlify-plugin-hello-world"
+  
