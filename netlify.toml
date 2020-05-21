@@ -1,0 +1,15 @@
+[build]
+  command = "echo 'hi'"
+  publish = "demo"
+
+[[plugins]]
+  package = "./plugin/index.js"
+  [plugins.inputs]
+    # required config
+    checkPaths = ['/']
+
+    # # optional config
+    resultMode = "warn" # is "error" by default
+
+    # # Developer only
+    # debugMode = true # extra logging for plugin developers
