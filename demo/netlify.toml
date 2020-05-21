@@ -1,2 +1,9 @@
 [[plugins]]
 package = "../netlify-ha11yght-plugin"
+
+# Deploy Preview context:
+# All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview.environment]
+    DEPLOY_ENV_TOKEN = "deploy-preview"
+  

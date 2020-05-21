@@ -1,6 +1,7 @@
 module.exports = {
   onInit: () => {
     console.log("onInit: I run before anything else 🐣");
+    console.log(process.env);
   },
   onPreBuild: () => {
     console.log("onPreBuild: I run_before_ build commands are executed 🌤");
@@ -21,5 +22,5 @@ module.exports = {
     console.log(
       "onEnd: I run on build error or success when the build process ends 🎬"
     );
-  }
+  },
 };
