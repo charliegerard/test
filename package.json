@@ -1,5 +1,5 @@
 {
-  "name": "netlify-ha11yght-plugin",
+  "name": "netlify-plugin-hello-world",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charliegerard/netlify-ha11yght-plugin.git"
+    "url": "git+https://github.com/charliegerard/netlify-plugin-hello-world.git"
   },
   "author": "",
   "license": "ISC"
