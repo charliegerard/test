@@ -1,14 +1,10 @@
 {
-  "name": "netlify-plugin-hello-world",
-  "version": "1.0.0",
+  "name": "netlify-a11y-highlight-plugin",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/charliegerard/netlify-plugin-hello-world.git"
   },
   "author": "",
   "license": "ISC"
